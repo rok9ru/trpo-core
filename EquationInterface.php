@@ -1,6 +1,6 @@
 <?php
 namespace core;
-interface LogInterface {
+interface EquationInterface {
 	/**
 	 * @param string $str
 	 *

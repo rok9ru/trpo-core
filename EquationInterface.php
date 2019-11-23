@@ -1,10 +1,12 @@
-<?php
 namespace core;
+
 interface EquationInterface {
-	/**
-	 * @param string $str
-	 *
-	 */
-	public static function log($str);
-	public static function write();
+/**
+* @param float $a
+* @param float $b
+* @param float $c
+ *
+ * @return array
+ */
+   public function solve($a, $b, $c);
 }

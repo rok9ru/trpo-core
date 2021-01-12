@@ -9,7 +9,7 @@ abstract class LogAbstract {
 	/**
 	 * @return static
 	 */
-	public static function Instance() {
+	public static function Instance(): LogAbstract {
 		if (!(static::$i instanceof static)) {
 			static::$i = new static();
 		}
